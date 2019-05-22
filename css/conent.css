@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* 设置落空类的过渡时间 */
+.p2 .Speed,
+.p2 .Big_circle img,
+.p2 .three_circle img,
+.p2 .Middle_circle img,
+.p2 .small_circle img
+{
+  transition: all 1s;
+}
+
+.p3 .spincircle ul{
+  transition: all 2s;
+}
+.p3 .titleimg
+{
+  transition: all 3s;
+}
+
+
+.p4 .glowimg,
+.p4 .p4word,
+.p4 .fastimg,
+.p4 .p4main ul{
+  transition: all 2s;
+}
+
+
+.p5 .page5p,
+.p5 .page5title,
+.p5 .Somepictures ul li:nth-child(1),
+.p5 .Somepictures ul li:nth-child(2),
+.p5 .Somepictures ul li:nth-child(3),
+.p5 .Somepictures ul li:nth-child(4),
+.p5 .Somepictures ul li:nth-child(5),
+.p5 .Somepictures ul li:nth-child(6) {
+  transition: all 2s;
+}
